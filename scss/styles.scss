@@ -1,0 +1,24 @@
+@import "core/variables";
+// Pages scss file
+@import "pages/pages";
+// Bootstrap Files
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+
+//Custom Core File  
+@import "core/functions";
+@import "core/mixins";
+@import "core/placeholder";
+@import "core/global";
+@import "core/reset";
+@import "core/typography";
+@import "core/misc";
+
+// Custom module files
+@import "modules/navbar";
+
+
+
+// Bootstrap File
+@import "../bootstrap/scss/bootstrap";
