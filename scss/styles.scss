@@ -1,6 +1,4 @@
 @import "core/variables";
-// Pages scss file
-@import "pages/pages";
 // Bootstrap Files
 @import "../bootstrap/scss/functions";
 @import "../bootstrap/scss/variables";
@@ -13,11 +11,10 @@
 @import "core/global";
 @import "core/reset";
 @import "core/typography";
-@import "core/misc";
 
-// Custom module files
-@import "modules/navbar";
 
+// Pages scss file
+@import "pages/pages";
 
 
 // Bootstrap File

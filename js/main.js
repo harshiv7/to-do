@@ -33,7 +33,7 @@ $(document).ready(function () {
     // Function to add task
     function addItem(event) {
         var newTodoText = $('#newTodo').val();
-        $('#newItem').append('<li class="list-group-item"><input type="checkbox" id="custom"  class="completeItem"><label for="custom" class="custom"></label><span class="todoText">' + newTodoText + '</span><input type="text" class="editText"><span class="btn btn-success saveItem">Save</span><span class="fa fa-trash deleteItem"></span></li>');
+        $('#newItem').append('<li class="list-group-item"><input type="checkbox" class="customs completeItem"><span class="custom"></span><span class="todoText">' + newTodoText + '</span><input type="text" class="editText"><span class="btn btn-success saveItem">Save</span><span class="fa fa-trash deleteItem"></span></li>');
         $('#newTodo').val("");
     }
 
